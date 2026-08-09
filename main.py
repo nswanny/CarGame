@@ -27,7 +27,7 @@ class Car:
         return self.current_durability > 0
 
 
-# Keep the player and the car seperate so the code can stay flexible   
+# Keep the player and the car seperate  
 class Player:
     def __init__(self, starting_money):
         self.money = starting_money
@@ -42,7 +42,7 @@ class Player:
     def assign_car(self, car):
         self.car = car
 
-# Now time for the game mechanics
+# Game mechanics
 
 class CarGame:
     def __init__(self):
